@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+p,h1,h2,h3,h4,h5,h6,a{
+
+  font-family: 'Gilroy', sans-serif !important;
+}
+.navitems{
+  align-items: flex-end;
+ 
+  float: right;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mt-15{
+  margin-top: 90px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.scrolled {
+  color: black!important;
+  background-color: white; 
+}
+.scrolled a{
+  color: black!important;
+  background-color: white; 
+  
+}
+
+.a-margin{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  transition: font-size 0.5s;
+}
+.a-margin:hover{
+
+    font-size: 20px;
+}
+
+.linkscrolled{
+  color:black!important;
+}.brand-width
+{
+  font-size: 40px;
+}
+.top-comp
+{
+  
+  padding-top: 150px;
+  
+}
+.bg-port{
+
+  background: #F0F8F7;
+}
+.font-style{
+    font-size: 1em;
+    line-height: 1.;
+    letter-spacing: 2px;
+    font-family: 'Gilroy', sans-serif;
+}
+.fontt{
+  letter-spacing: 7px;
+  font-family: 'Gilroy', sans-serif;
+}
+.color-bg{
+ 
+   padding: 10px 15px 180px;
+   
+   background-image: url(//www.camo.ee/wp-content/themes/camo/img/background_wave/home__header__mobile.svg);
+   background-size:cover;
+   background-color: white;
+  
+}
+
+
+
+.txt-white{
+  background-color: white;
+}
+.ht{
+  background: #F0F8F7;
+  padding: 56px 55px 64px;
+  border-radius: 5px;
+}
+
+.portfoli-img{
+  height:300px ;
+  width: 300px;
+  transition: width 1s, height 1s;
+ 
+}
+.portfoli-img:hover{
+  height:320px ;
+  width: 320px;
+
+}
+
+
+@media  screen and (min-width: 320px) {
+  .animeimage{
+    
+    width: 280px ;
+  }
+  .portfoli-img{
+    height:300px ;
+  width: 280px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media  screen and (min-width: 1020px) {
+  .animeimage {
+    
+    width:100% ;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.side-img{
+
+  width: 150px;
+  height: 150px;
 }
