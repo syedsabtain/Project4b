@@ -162,7 +162,7 @@ function App() {
         <>
              <div className='color-bg'>
                 <nav className="navbar  fixed-top   navbar-expand-lg navbar-light ">
-                    <a className="navbar-brand fontt pl-4 brand-width icon text-white">CAMO</a>
+                     <span className="navbar-brand fontt pl-4 brand-width icon text-white">CAMO</span>
                     <button
                         className="navbar-toggler txt-white "
                         type="button"
@@ -177,42 +177,42 @@ function App() {
                     <div className="collapse  navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav  ml-auto">
                             <li className="nav-item ">
-                                <a
+                                 <span
                                     className="nav-link text-white a-margin particular animate__animated    "
-                                    href="#">SERVICES
-                                </a>
+                                     >SERVICES
+                                </span>
                             </li>
                             <li className="nav-item">
-                                <a
+                                 <span
                                     className="nav-link navlink-color a-margin text-white animate__animated particular"
-                                    href="#">ABOUT US</a>
+                                     >ABOUT US</span>
                             </li>
                             <li className="nav-item">
-                                <a
+                                 <span
                                     className="nav-link navlink-color a-margin text-white animate__animated particular"
-                                    href="#">PROJECTS</a>
+                                     >PROJECTS</span>
                             </li>
                             <li className="nav-item">
-                                <a
+                                 <span
                                     className="nav-link  navlink-color text-white a-margin animate__animated particular"
-                                    href="#">BLOGS</a>
+                                     >BLOGS</span>
                             </li>
                             <li className="nav-item ml-5 dropdown">
-                                <a
+                                 <span
                                     className="nav-link a-margin text-white dropdown-toggle"
-                                    href="#"
+                                     
                                     id="navbarDropdownMenuLink"
                                     role="button"
                                     data-toggle="dropdown"
                                     aria-haspopup="true"
-                                    aria-expanded="false"></a>
+                                    aria-expanded="false"></span>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a className="dropdown-item " href="#">EST</a>
+                                     <span className="dropdown-item "  >EST</span>
                                 </div>
 
                             </li>
                             <li className='nav-item mr-4'>
-                                <a href="" className='btn a-margin btn-outline-info text-white'>GET IN TOUCH</a>
+                                 <span    className='btn a-margin btn-outline-info text-white'>GET IN TOUCH</span>
                             </li>
 
                         </ul>
@@ -368,18 +368,18 @@ function App() {
                     <div class="row">
                         <div class="col-md-12 text-center">
                             
-                                <a class="fb-ic fadeInfor">
+                                 <span class="fb-ic fadeInfor">
                                     <SocialMediaIconsReact borderColor="rgba(240,238,238,1)" borderWidth="2" borderStyle="solid" icon="facebook" iconColor="rgba(0,0,0,1)" backgroundColor="rgba(255,255,255,1)" iconSize="4" roundness="36%"  size="49" />
-                                </a>
-                                <a class="tw-ic fadeInfor">
+                                </span>
+                                 <span class="tw-ic fadeInfor">
                                     <SocialMediaIconsReact borderColor="rgba(240,238,238,1)" borderWidth="2" borderStyle="solid" icon="twitter" iconColor="rgba(0,0,0,1)" backgroundColor="rgba(255,255,255,1)" iconSize="4" roundness="36%"  size="49" />
-                                </a>
-                                <a class="gplus-ic fadeInfor">
+                                </span>
+                                 <span class="gplus-ic fadeInfor">
                                     <SocialMediaIconsReact borderColor="rgba(240,238,238,1)" borderWidth="2" borderStyle="solid" icon="instagram" iconColor="rgba(0,0,0,1)" backgroundColor="rgba(255,255,255,1)" iconSize="4" roundness="36%" size="49" />
-                                </a>
-                                <a class="li-ic fadeInfor">
+                                </span>
+                                 <span class="li-ic fadeInfor">
                                     <SocialMediaIconsReact borderColor="rgba(240,238,238,1)" borderWidth="2" borderStyle="solid" icon="linkedin" iconColor="rgba(0,0,0,1)" backgroundColor="rgba(255,255,255,1)" iconSize="4" roundness="36%"  size="49" />
-                                </a>
+                                </span>
                                
                         </div>
 
@@ -388,8 +388,8 @@ function App() {
                 </div>
 
                 <div class="footer-copyright text-center py-3">© 2020 Copyright: 
-                    <a className='ml-2' href=''>
-                        Syed Sabtain</a>
+                     <span className='ml-2'   >
+                        Syed Sabtain</span>
                 </div>
 
                     </footer> 
